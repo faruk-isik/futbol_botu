@@ -1,1 +1,4 @@
-requirements.txt
+tweepy
+flask
+gunicorn
+google-genai # Bu satırı ekleyin
