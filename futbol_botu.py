@@ -66,13 +66,13 @@ def generate_gemini_tweet():
         # Modelin 'sosyal medya' alışkanlıklarını kırmak için sert talimatlar
         system_rules = (
             "Sadece ham haber metni yazarsın. "
-            "Bugünlerde Türkiye'de gündem olmuş, çok fazla konuşulan, güncel futbol müsabakalarıyla da ilgili olabilir alaycı bir dille (küfür ve hakaret içermeyen) yazı yaz. . Yazı Türkçe olacak. Emoji kullanma. Yazının sonuna yazıyla ilgili bir hashtag ekle. Eklediğin hashtag dahil maksimum 230 karakter olsun."
+            "Bugünlerde Türkiye'de gündem olmuş futbol ile ilgili, çok fazla konuşulan futbol ile ilgili, güncel futbol müsabakalarıyla da ilgili olabilir alaycı bir dille (küfür ve hakaret içermeyen) yazı yaz. . Yazı Türkçe olacak. Emoji kullanma. Yazının sonuna yazıyla ilgili bir hashtag ekle. Eklediğin hashtag dahil maksimum 230 karakter olsun."
             "Sadece düz metin gönder."
         )
         
         user_prompt = (
             "Sadece ham haber metni yazarsın. "
-            "Bugünlerde Türkiye'de gündem olmuş, çok fazla konuşulan, güncel futbol müsabakalarıyla da ilgili olabilir alaycı bir dille (küfür ve hakaret içermeyen) yazı yaz. . Yazı Türkçe olacak. Emoji kullanma. Yazının sonuna yazıyla ilgili bir hashtag ekle. Eklediğin hashtag dahil maksimum 230 karakter olsun."
+            "Bugünlerde Türkiye'de gündem olmuş futbol ile ilgili, çok fazla konuşulan futbol ile ilgili, güncel futbol müsabakalarıyla da ilgili olabilir alaycı bir dille (küfür ve hakaret içermeyen) yazı yaz. . Yazı Türkçe olacak. Emoji kullanma. Yazının sonuna yazıyla ilgili bir hashtag ekle. Eklediğin hashtag dahil maksimum 230 karakter olsun."
             "Sadece düz metin gönder."
         )
         
