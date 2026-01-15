@@ -35,7 +35,7 @@ GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 SECRET_TOKEN = os.getenv("SECRET_TOKEN", "default_secret_change_this")
 
 # NTV Son Dakika RSS
-NTV_SON_DAKIKA_RSS = "https://www.ntv.com.tr/son-dakika.rss"
+NTV_SON_DAKIKA_RSS = "https://www.ntv.com.tr/sporskor.rss"
 
 SIMILARITY_THRESHOLD = 0.75  # %75 benzerlik
 MAX_RETRIES = 3
@@ -75,7 +75,7 @@ def home():
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Türkiye Gündemi Botu</title>
+        <title>Spor Botu</title>
         <style>
             * {{ margin: 0; padding: 0; box-sizing: border-box; }}
             body {{
@@ -540,11 +540,13 @@ KURALLAR:
             messages=[
                 {
                     "role": "system",
-                    "content": """Sen profesyonel bir haber editörüsün. 
+                    "content": """Sen profesyonel bir spor haberi editörüsün. 
 Haberleri 280 karakterlik tweet formatında özetliyorsun.
 Her karakteri verimli kullan, gereksiz kelime ekleme.
-Somut bilgileri (sayı, isim, yer) mutlaka ekle.
-Okuyucu haberin tüm önemli detaylarını anlamalı."""
+Somut bilgileri (sayı, isim, yer, takım, spor adı) mutlaka ekle.
+Okuyucu haberin tüm önemli detaylarını anlamalı.
+Haberi biraz alaycı yazabilirsin.
+Kesinlikle hakaret, küfür içerikli yazılar yazma."""
                 },
                 {
                     "role": "user",
