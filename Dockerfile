@@ -12,10 +12,10 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Uygulama kodu
-COPY main.py .
+COPY futbol_botu.py .
 
 # Port
 EXPOSE 8000
 
 # Çalıştırma komutu
-CMD ["python", "main.py"]
+CMD ["python", "futbol_botu.py"]
