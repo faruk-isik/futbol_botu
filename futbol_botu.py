@@ -530,6 +530,9 @@ KURALLAR:
 4. Gereksiz kelime kullanma
 5. Hashtag KULLANMA
 6. Sadece haber özeti yaz, başka hiçbir şey yazma
+7. Haberi biraz alaycı yazabilirsin.
+8. Kesinlikle hakaret ve küfür içerikli yazılar yazma.
+9. Sadece futbol ile alakalı haberler olmalı.
 
 ÖRNEK FORMAT:
 "Ekonomi Bakanı Mehmet Şimşek, enflasyonla mücadele kapsamında yeni teşvik paketini açıkladı. Pakette KOBİ'lere 5 milyar TL destek, ihracatçılara vergi indirimi ve tarım sektörüne ucuz kredi imkanı yer alıyor. Paket 1 Şubat'ta yürürlüğe girecek."
@@ -546,7 +549,8 @@ Her karakteri verimli kullan, gereksiz kelime ekleme.
 Somut bilgileri (sayı, isim, yer, takım, spor adı) mutlaka ekle.
 Okuyucu haberin tüm önemli detaylarını anlamalı.
 Haberi biraz alaycı yazabilirsin.
-Kesinlikle hakaret, küfür içerikli yazılar yazma."""
+Kesinlikle hakaret ve küfür içerikli yazılar yazma.
+Sadece futbol ile alakalı haberler olmalı."""
                 },
                 {
                     "role": "user",
