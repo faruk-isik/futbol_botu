@@ -5,3 +5,4 @@ Flask==3.0.0
 Werkzeug==3.0.1
 httpx==0.24.1
 feedparser==6.0.10
+pytz==2024.1
